@@ -1,0 +1,44 @@
+# Attributes for student-mat.csv (Math course)datasets:
+
+1(A) sex - student's sex (binary: 0 - female or 1 - male)
+
+2(B) age - student's age (numeric: from 15 to 22)
+
+3(C) Pstatus - parent's cohabitation status (binary: "1" - living together or "0" - apart)
+
+4(D) Medu - mother's education (numeric: 0 - none,  1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
+
+5(E) Fedu - father's education (numeric: 0 - none,  1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
+
+6(F) traveltime - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
+
+7(G) studytime - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
+
+8(H) Failures - number of past class failures (numeric: n if 1<=n<3, else 4)
+
+9(I) Famrel - quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
+
+10(J) Freetime - free time after school (numeric: from 1 - very low to 5 - very high)
+
+11(K) goout - going out with friends (numeric: from 1 - very low to 5 - very high)
+
+12(L) health - current health status (numeric: from 1 - very bad to 5 - very good)
+
+13(M) absences - number of school absences (numeric: from 0 to 93)
+
+# these grades are related with the course subject, Math:
+14(N) G1 - first period grade (numeric: from 0 to 20)
+15(O) G2 - second period grade (numeric: from 0 to 20)
+16(P) G3 - final grade (numeric: from 0 to 20, output target)
+
+Nitelik sayısı = 16 (33)
+Örnek sayısı = 649
+Eksik veri sayısı = 253
+
+
+
+
+
+
+
+=COUNTIF(A1:R396,"~?")
